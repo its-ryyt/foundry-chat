@@ -1,0 +1,85 @@
+# =========================
+# Python artifacts
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test, coverage, and cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs
+*.log
+
+# =========================
+# Secrets and credentials
+# =========================
+# Environment variable files
+.env
+.env.*
+!.env.example
+
+# Generic secret files
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.jks
+*.keystore
+*.der
+*.kdbx
+
+# SSH/private key files
+id_rsa
+id_rsa.*
+id_dsa
+id_dsa.*
+id_ecdsa
+id_ecdsa.*
+id_ed25519
+id_ed25519.*
+
+# Cloud/service auth files
+*credentials*.json
+*credential*.json
+*secrets*.json
+*secret*.json
+*token*.json
+*auth*.json
+
+# Azure/OpenAI local config patterns
+.azure/
+.azureconfig/
+*.env.local
+
+# =========================
+# Editor/OS local files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project-specific local notes
+foundry-chat-setup-complete.txt
